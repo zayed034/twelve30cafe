@@ -1,0 +1,327 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+html,
+body {
+  font-family: "Montserrat", sans-serif;
+}
+hr.horizontal {
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* //////////// nav area start///////////// */
+.logo {
+  border-radius: 50%;
+  height: 70px;
+  margin-right: 10px;
+  margin-left: -10px;
+  cursor: pointer;
+}
+.nav-item a.active,
+.nav-item a:hover {
+  background: #313030;
+  border-radius: 10px;
+  color: white;
+}
+.navbar-brand {
+  font-size: 30px;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  text-transform: uppercase;
+  font-family: "Rubik", sans-serif;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  font-family: "Rubik", sans-serif;
+  border: 2px solid #33383e;
+}
+.btn0 {
+  height: 40px;
+  width: 50%;
+  outline: none;
+  border: none;
+  background: #33383e;
+  color: white;
+  border-radius: 60px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+/*///////////////// nav area end////////////// */
+/*///////////////// carousel area start////////////// */
+.carousel-item img {
+  height: 600px;
+}
+.carousel-indicators [data-bs-target] {
+  background: #ffffff;
+  border-radius: 5px;
+  width: 40px;
+  transition: 0.5s ease all;
+}
+/*///////////////// carousel area end////////////// */
+/*////////////// Food item area start//////////////// */
+img .menu {
+  padding: 8px;
+}
+img.menu {
+  height: 350px;
+  width: 350px;
+}
+.text-d {
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.heading-1 {
+  font-family: "Montserrat", sans-serif;
+}
+h6.text-h {
+  font-size: 16px;
+  font-weight: 700;
+}
+.btn2 {
+  height: 40px;
+  width: 50%;
+  background: #33383e;
+  color: white;
+  border-radius: 60px;
+  font-family: "Rubik", sans-serif;
+  border: none;
+  margin-top: 10px;
+}
+/*////////////// Food item area end//////////////// */
+/*///////////////// menu section area start////////////// */
+p.paragraph {
+  font-size: 17px;
+  font-style: italic;
+  text-align: center;
+  margin: 20px auto 0;
+}
+.menu-img {
+  padding: 20px;
+}
+p.text-1 {
+  font-size: 18px;
+  text-align: center;
+  margin: 10px;
+}
+/* h3.heading {
+  font-style: oblique;
+  font-weight: 500;
+  margin-top: 15px;
+  margin: 5px;
+}
+p.text-1 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 10px;
+}
+h6.text-2 {
+  font-size: 20px;
+  color: red;
+  font-weight: 700;
+  margin: 10px;
+}
+.btn {
+  height: 40px;
+  width: 50%;
+  background: rgb(248, 26, 92);
+  color: white;
+  border-radius: 60px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+} */
+/*///////////////// menu section area end////////////// */
+/*///////////////// contact area start////////////// */
+.col-md-6 {
+  display: inline-grid;
+}
+.text-2 {
+  line-height: 2em;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.icon-size i {
+  padding: 20px;
+  font-size: 18px;
+  color: #33383e;
+}
+.heading {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.text-3 {
+  color: #33383e;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.form-control {
+  height: 50px;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+span {
+  color: black;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  padding: 10px;
+  font-weight: 500;
+}
+.submit {
+  background: #33383e;
+  margin-left: 20px;
+  width: 100%;
+  height: 50px;
+  color: white;
+  font-size: 17px;
+  border: none;
+  border-radius: 20px;
+}
+/*///////////////// contact area end////////////// */
+/*///////////////// footer area start////////////// */
+p.footer-text {
+  color: #fff;
+  font-size: 18px;
+  margin-right: 20%;
+  margin-top: 10px;
+}
+.footer.d-flex {
+  justify-content: end;
+  margin-right: 15%;
+}
+.background {
+  background-color: #1d242e;
+  padding: 15px;
+}
+.footer i {
+  width: 50px;
+  cursor: pointer;
+  font-size: 30px;
+  color: #fbfdff;
+  border-radius: 20px;
+  padding: 10px;
+}
+.footer i:hover {
+  color: #038bfa;
+}
+/*///////////////// footer area start////////////// */
+/*///////////////// contact area start////////////// */
+.u-text {
+  font-size: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+}
+h6.company-name {
+  font-size: larger;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 30px;
+}
+p.contact-text {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Montserrat", sans-serif;
+}
+input.form {
+  width: 100%;
+  margin: 10px;
+  height: 50px;
+  border-radius: 10px;
+}
+textarea.text-name {
+  width: 100%;
+  margin: 10px;
+  border-radius: 10px;
+}
+button.sub {
+  width: 100%;
+  margin: 10px;
+  height: 40px;
+  background: #1d242e;
+  color: white;
+  border-radius: 10px;
+}
+/*///////////////// contact area end////////////// */
+/*///////////////// Review area start////////////// */
+
+.comment-section {
+  padding: 50px 0px;
+}
+.R-title {
+  color: #33383e;
+  font-size: 22px;
+}
+.media-review {
+  padding: 20px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.media-review:first-child {
+  border-top: 1px solid #ccc;
+}
+.media-user {
+  margin-right: 15px;
+  border-radius: 50%;
+  overflow: hidden;
+  background: rgb(236, 236, 236);
+  width: 77px;
+  height: 77px;
+}
+.media-user img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.M-flex {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  font-size: 12px;
+  color: #1c1d36;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+.title span {
+  font-size: 20px;
+  display: block;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.description {
+  font-size: 14px;
+  color: #5b5b5b;
+  margin-bottom: 20px;
+}
+.rating-row ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.rating-row ul li {
+  color: #ffc107;
+  font-size: 20px;
+  margin: 0px 3px;
+}
+/*///////////////// Review area end////////////// */
+/*///////////////// about area start////////////// */
+p.card-text {
+  font-size: 17px;
+  font-style: italic;
+}
+h3.card-heading {
+  font-size: 27px;
+  font-style: italic;
+}
